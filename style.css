@@ -1,0 +1,242 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+col
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Garamond, serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: medium;
+    font-weight: bold;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: purple;
+}
+
+.menu {
+    float: left;
+    color: black;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;    
+    user-select: none;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: grey;
+    z-index: 1;
+    border-bottom: 1px solid grey;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    color: purp;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: grey;
+    line-height: 50px;
+}
+
+a.tbl-merah {
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background-color: maroon;
+    text-decoration: none;
+}
+
+a.tbl-hitam {
+    background-color: gray;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hitam:hover {
+    background-color: palevioletred;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.wrapper img {
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    line-height: 50px;  
+    font-family: Garamond, serif;  
+}
+
+h3 {
+    font-family: Garamond, serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: plum;
+    line-height: 50px;
+    text-align: center;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #BEADFA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: pink;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}  
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+.row {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-family: Garamond, serif;
+    color: #FFF8C9;
+}
+  
+image {
+    width: 100;
+    height: 100;
+}
+  
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: left; 
+    font-size: 25px; 
+    font-weight: lighter; 
+    font-family: Garamond, serif; 
+    color: black; 
+    text-shadow: 5px 5px 5px #FFF8C9;
+}
